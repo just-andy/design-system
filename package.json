@@ -1,0 +1,22 @@
+{
+  "name": "sassparcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "sass",
+    "parcel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "prettier": "2.6.2",
+    "sass": "^1.50.0"
+  }
+}
